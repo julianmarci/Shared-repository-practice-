@@ -1,7 +1,7 @@
 .verde {
     color: green;
 }
-p {
+p.verde {
     color: rgb(0, 255, 0);
 }
 h1 {
