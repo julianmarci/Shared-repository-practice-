@@ -1,15 +1,24 @@
-h1 {
+/*style css file*/
+body.index h1 {
     color: red;
 }
-div {
+
+body.pagina1 h1 {
+    color: green;
+}
+
+body.pagina2 h1 {
+    color: green;
+}
+
+body.pagina3 h1 {
+    color: green;
+}
+
+a:hover {
     color: red; background-color: yellow;
 }
+
 h1:hover { 
-    color: white; background-color: red;
-}
-.dispari:hover {
-    color: yellow; background-color: blue;
-}
-.pari:hover {
-    color: yellow; background-color: red;
+    background-color: gray;
 }
