@@ -3,15 +3,7 @@ body.index h1 {
     color: red;
 }
 
-body.pagina1 h1 {
-    color: green;
-}
-
-body.pagina2 h1 {
-    color: green;
-}
-
-body.pagina3 h1 {
+body.pagina h1 {
     color: green;
 }
 
