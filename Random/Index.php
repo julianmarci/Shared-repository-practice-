@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php   
+<?php   
     $random = rand(1, 3);
     if ($random == 1){
-        echo ('');
+        echo ('<link rel="stylesheet" href="Style_1.css">');
     }
     elseif ($random == 2){
-        echo('');
+        echo('<link rel="stylesheet" href="Style_2.css">');
     }
     else{
-        echo('')
+        echo('<link rel="stylesheet" href="Style_3.css">') ;
     }
-}
 ?>
 </head>
 <body>
