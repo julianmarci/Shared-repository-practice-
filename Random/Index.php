@@ -8,9 +8,13 @@
     $random = rand(1, 3);
     if ($random == 1){
         echo ('');
-        elself ($random == 2)
-        echo('')
-        else
+    }
+    elseif ($random == 2){
+        echo('');
+    }
+    else{
+        
+    }
 }
 ?>
 </head>
