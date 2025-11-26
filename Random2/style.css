@@ -1,0 +1,12 @@
+h1 {
+    color:red;
+}
+div.parity {
+    background-color: black; color: white;
+}
+div.impair {
+    background-color: grey; color: white;
+}
+div:last-of-type {
+   color: white; background-color: red;
+}
