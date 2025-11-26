@@ -1,17 +1,23 @@
-h1 {
-    color:red;
-}
-
-div {
-    color: grey;
+.random-div-rosso {
+    color: rgb(242, 5, 5);
 width: 50px;
 height: 50px;
 }
 
-div:last-of-type {
-color: white; background-color: red;
-padding: 10px;
-margin: 10px;
-border: 1px solid  black;
+.random-div-verde {
+    color: rgb(32, 171, 51);
+width: 50px;
+height: 50px;
+}
 
+.random-div-blu{
+    color: rgb(30, 12, 218);
+width: 50px;
+height: 50px;
+}
+
+.random-div-giallo{
+    color: rgb(255, 255, 0);
+width: 50px;
+height: 50px;
 }
