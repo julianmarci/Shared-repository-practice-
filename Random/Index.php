@@ -13,7 +13,7 @@
         echo('<link rel="stylesheet" href="Style_2.css">');
     }
     else{
-        echo('<link rel="stylesheet" href="Style_3.css">') ;
+        echo('<link rel="stylesheet" href="Style_3.css">');
     }
 ?>
 </head>
