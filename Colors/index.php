@@ -18,9 +18,9 @@ $cantidad = rand(5, 30);
     <?php
 for ($i = 1; $i <= $cantidad; $i++) {
     if ($i % 2 == 0) {
-        echo "<div>Div $i: PAR</div>";
+        echo "<div>Div $i: </div>";
     } else {
-        echo "<div>Div $i: IMPAR</div>";
+        echo "<div>Div $i: </div>";
     }
 }
 
