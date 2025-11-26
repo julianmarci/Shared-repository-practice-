@@ -8,13 +8,7 @@ $cantidad = rand(10, 30);
     <meta charset="UTF-8">
     <title>Divs Par e Impar</title>
     <style>
-        div {
-            padding: 8px;
-            margin: 5px;
-            border: 1px solid #444;
-            width: fit-content;
-            font-family: Arial, sans-serif;
-        }
+
     </style>
 </head>
 <body>
@@ -29,7 +23,7 @@ for ($i = 1; $i <= $cantidad; $i++) {
 }
 ?>
 
-<div style="margin-top:20px; background:#eee; padding:10px;">
+<div>
     Final de página
 </div>
 
