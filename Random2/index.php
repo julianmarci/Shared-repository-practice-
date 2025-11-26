@@ -6,6 +6,7 @@ $cantidad = rand(10, 30);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Divs Par e Impar</title>
     <style>
 
