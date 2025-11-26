@@ -1,6 +1,12 @@
 <?php
 // Número aleatorio de divs entre 10 y 30
 $cantidad = rand(5, 30);
+function colorRandom() {
+    return sprintf("#%06X", mt_rand(0, 0xFFFFFF));
+}
+$colores_usados = [];
+?>
+
 ?>
 
 
@@ -16,6 +22,7 @@ $cantidad = rand(5, 30);
 <body>
     <h1>colori</h1>
     <?php
+
 for ($i = 1; $i <= $cantidad; $i++) {
     if ($i % 2 == 0) {
         echo "<div>Div $i: </div>";
