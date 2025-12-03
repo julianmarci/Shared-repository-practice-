@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>Eventi Javascrpt</h1>
-    <button>testo rosso</button>
+    
+    <button id="button">testo rosso</button>
     <div>Texto con sfondo giallo</div>
     <div>Texto con sfondo giallo</div>
     <div>Texto con sfondo giallo</div>
@@ -35,4 +36,5 @@
     <div>Texto con sfondo giallo</div>
     <div>Texto con sfondo giallo</div>
 </body>
+<script src="00.js"></script>
 </html>
