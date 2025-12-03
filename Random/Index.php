@@ -7,7 +7,7 @@
 <?php   
     $random = rand(1, 3);
     if ($random == 1){
-        echo ('<link rel="stylesheet" href="Style_1.css">');
+        echo('<link rel="stylesheet" href="Style_1.css">');
     }
     elseif ($random == 2){
         echo('<link rel="stylesheet" href="Style_2.css">');
@@ -21,16 +21,16 @@
     <h1>
         Css casuali
     </h1>
-    <div>questo es un div dispari</div>
-    <div>questo es un div pari</div>
-    <div>questo es un div dispari</div>
-    <div>questo es un div pari</div>
-    <div>questo es un div dispari</div>
-    <div>questo es un div pari</div>
-    <div>questo es un div dispari</div>
-    <div>questo es un div pari</div>
-    <div>questo es un div dispari</div>
-    <div>questo es un div pari</div>
-    <div>questa è la fine della pagina</div>
+    <div> questo es un div dispari</div>
+    <div> questo es un div pari</div>
+    <div> questo es un div dispari</div>
+    <div> questo es un div pari</div>
+    <div> questo es un div dispari</div>
+    <div> questo es un div pari</div>
+    <div> questo es un div dispari</div>
+    <div> questo es un div pari</div>
+    <div> questo es un div dispari</div>
+    <div> questo es un div pari</div>
+    <div> questa è la fine della pagina</div>
 </body>
 </html>
