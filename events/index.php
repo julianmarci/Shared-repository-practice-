@@ -9,6 +9,8 @@
 <body>
     <h1>Eventi Javascrpt</h1>
     <button id="button">testo rosso</button>
+    <button id="giallo">testo giallo</button>
+    <button id="Blu">testo Blu</button>
     <div>Texto con sfondo giallo</div>
     <div>Texto con sfondo giallo</div>
     <div>Texto con sfondo giallo</div>
