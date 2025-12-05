@@ -1,5 +1,5 @@
 //*whenever the user uses the button in Javascript, the divs change to red
-var Button_red= document.getElementById("button");
+var Button_red = document.getElementById("button");
 Button.addEventListener ('click', function() {
 var div = document.getElementsByTagName("div");
 for (i = 0; i < div.length;i++){
