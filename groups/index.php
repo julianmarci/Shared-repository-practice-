@@ -30,12 +30,27 @@
     <h2 class="primo">
         Primo gruppo
     </h2>
-    <?php
-        // Número aleatorio de divs entre 10 y 30
-        $cantidad = rand(5, 10);
-    ?>
+        <?php
+            // Genera un número aleatorio entre 5 y 10
+            $cantidadDivs = rand(5, 10);
+
+            // Imprime la cantidad de divs
+            for ($i = 0; $i < $cantidadDivs; $i++) {
+                echo "<div>Div número " . ($i + 1) . "</div>";
+            }
+        ?>
+
     <h2 class= "secondo">
         Secondo gruppo
     </h2>
+        <?php
+            // Genera un número aleatorio entre 5 y 10
+            $cantidadDivs = rand(10, 15);
+
+            // Imprime la cantidad de divs
+            for ($i = 0; $i < $cantidadDivs; $i++) {
+                echo "<div>Div número " . ($i + 1) . "</div>";
+            }
+        ?>
 </body>
 </html>
