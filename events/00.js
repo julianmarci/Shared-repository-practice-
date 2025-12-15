@@ -1,22 +1,14 @@
-//*whenever the user uses the button in Javascript, the divs change to red
-var Button = document.getElementById("Button");
+//*whenever the user uses the button in Javascript, the divs change to green
+var Button = document.getElementById("Button_green");
 Button.addEventListener ('click', function() {
 var div = document.getElementsByTagName("div");
 for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "red",
-    div[i+1].style.backgroundColor = "yellow";
+    div[i].style.backgroundColor = "green";
 }});
-//*whenever the user uses the button in Javascript, the divs change to blue
-var Button = document.getElementById("Button_blue");
+//*whenever the user uses the button in Javascript, the divs change to orange
+var Button = document.getElementById("Button_orange");
 Button.addEventListener ('click', function() {
 var div = document.getElementsByTagName("div");
 for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "blue";
+    div[i].style.backgroundColor = "orange";
 }});
-//*whenever the user uses the button in Javascript, the divs change to yellow
-var Button = document.getElementById("Button_yellow");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "yellow";
-}});*/
