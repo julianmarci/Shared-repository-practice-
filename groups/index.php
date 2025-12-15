@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <button id= "primo_rosso">
+        <button id="primo_rosso">
             primo rosso
         </button>
         <button id="secondo_roso">
@@ -17,7 +17,7 @@
         <button id="tutti_roso">
             tutti roso
         </button>
-        <button id= "primo_blu">
+        <button id="primo_blu">
             primo blu
         </button>
         <button id="secondo_blu">
