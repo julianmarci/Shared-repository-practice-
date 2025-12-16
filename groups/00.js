@@ -1,42 +1,42 @@
-//*whenever the user uses the button in Javascript, the first group changes to red
-var Button = document.getElementById("primo_rosso");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "red";
-}});
-//*whenever the user uses the button in Javascript, the second group changes to red
-var Button = document.getElementById("secondo_rosso");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "red";
-}});
-//*whenever the user uses the button in Javascript, all divs change to red
-var Button = document.getElementById("tutti_rosso");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "red";
-}});
-//*whenever the user uses the button in Javascript, the first group changes to blue
-var Button = document.getElementById("primo_blu");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "blue";
-}});
-//*whenever the user uses the button in Javascript, the second group changes to blue
-var Button = document.getElementById("secondo_blu");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "blue";
-}});
-//*whenever the user uses the button in Javascript, all divs change to blue
-var Button = document.getElementById("tutti_blu");
-Button.addEventListener ('click', function() {
-var div = document.getElementsByTagName("div");
-for (i = 0; i < div.length;i++){
-    div[i].style.backgroundColor = "blue";
-    }});
+let myButton = document.getElementById("btn_red_1");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_1", "red");
+});
+
+myButton = document.getElementById("btn_red_2");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_2", "red");
+});
+
+myButton = document.getElementById("btn_blue_1");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_1", "blue");
+});
+
+myButton = document.getElementById("btn_blue_2");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_2", "blue");
+});
+
+myButton = document.getElementById("btn_blue_all");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_1", "blue");
+    change_divs_color("group_2", "blue");
+});
+
+myButton = document.getElementById("btn_red_all");
+myButton.addEventListener("click", function() {
+    change_divs_color("group_1", "red");
+    change_divs_color("group_2", "red");
+});
+
+function change_divs_color(div_class, bg_color) {
+    let myDivs = document.getElementsByClassName(div_class);
+    change_divs_style(myDivs, bg_color);
+}
+
+function change_divs_style(divs, backgroundColor) {
+    for (let i = 0; i < divs.length; i++) {
+        divs[i].style.backgroundColor = backgroundColor;
+    }
+}
