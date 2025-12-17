@@ -2,14 +2,20 @@ h1 {
     color: red;
 }
 .group_1 div {
-    width: 150px;
-    height: 150px;
-}
-.group_2 div {
     width: 100px;
     height: 100px;
+    margin: 5px;
+    float: left;
+}
+.group_2 div {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    float: Left;
 }
 .group_3 div {
     width: 50px;
     height: 50px;
+    margin: 5px;
+    float: Left;
 }
