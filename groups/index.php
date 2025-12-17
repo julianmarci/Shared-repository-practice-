@@ -19,14 +19,32 @@
         <button id="btn_red_all">All Red</button>
         <button id="btn_blue_all">All Blue</button>
     </div>
-
-    <div class="group_1"></div>
-    <div class="group_1"></div>
-    <div class="group_1"></div>
-
-    <div class="group_2"></div>
-    <div class="group_2"></div>
-    <div class="group_2"></div>
+    <h2>
+        Primo Gruppo
+    </h2>
+    <div>
+        <?php
+        // Genera un número aleatorio entre 5 y 10
+        $cantidadDivs = rand(5, 10);
+        // Imprime la cantidad de divs
+        for ($i = 0; $i < $cantidadDivs; $i++) {
+            echo "<div>Div número " . ($i + 1) . "</div>";
+        }
+        ?>
+    </div>
+    <h2>
+        Secondo Gruppo
+    </h2>
+    <div>
+        <?php
+        // Genera un número aleatorio entre 5 y 10
+        $cantidadDivs = rand(10, 15);
+        // Imprime la cantidad de divs
+        for ($i = 0; $i < $cantidadDivs; $i++) {
+            echo "<div>Div número " . ($i + 1) . "</div>";
+        }
+        ?>
+    </div>
 
     <script src="00.js"></script>
 </body>
