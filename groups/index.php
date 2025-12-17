@@ -32,7 +32,7 @@
     <h2>
         Primo Gruppo
     </h2>
-    <div>
+    <div class= "group_1">
         <?php
         // Genera un número aleatorio entre 5 y 10
         $cantidadDivs = rand(5, 10);
@@ -45,7 +45,7 @@
     <h2>
         Secondo Gruppo
     </h2>
-    <div>
+    <div class= "group_2">
         <?php
         // Genera un número aleatorio entre 5 y 10
         $cantidadDivs = rand(10, 15);
@@ -58,7 +58,7 @@
     <h2>
         Terzo Gruppo
     </h2>
-    <div>
+    <div class= "group_3">
         <?php
         // Genera un número aleatorio entre 5 y 10
         $cantidadDivs = rand(5, 20);
