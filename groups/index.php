@@ -38,7 +38,7 @@
         $cantidadDivs = rand(5, 10);
         // Imprime la cantidad de divs
         for ($i = 0; $i < $cantidadDivs; $i++) {
-            echo "<div>Div número " . ($i + 1) . "</div>";
+            echo "<div class='div_group_1'>Div número " . ($i + 1) . "</div>";
         }
         ?>
     </div>
@@ -51,7 +51,7 @@
         $cantidadDivs = rand(10, 15);
         // Imprime la cantidad de divs
         for ($i = 0; $i < $cantidadDivs; $i++) {
-            echo "<div>Div número " . ($i + 1) . "</div>";
+            echo "<div class='div_group_2'>Div número " . ($i + 1) . "</div>";
         }
         ?>
     </div>
@@ -64,7 +64,7 @@
         $cantidadDivs = rand(5, 20);
         // Imprime la cantidad de divs
         for ($i = 0; $i < $cantidadDivs; $i++) {
-            echo "<div>Div número " . ($i + 1) . "</div>";
+            echo "<div class='div_group_3'>Div número " . ($i + 1) . "</div>";
         }
         ?>
     </div>
