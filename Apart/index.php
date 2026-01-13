@@ -9,7 +9,7 @@
     echo ("<p>Cognome: " . $cognome . "</p>");
     echo ("<p>Residenza: " . $residenza . "</p>");
     echo ("<p>Importo: " . $importo . "</p>");
-    echo ("<p>Saldo: " . $saldo . "</p>");
+    echo ("<p class='saldo'>Saldo: " . $saldo . "</p>");
     ?>
 
 <html lang="it">
