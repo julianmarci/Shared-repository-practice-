@@ -8,5 +8,12 @@
     <h1>
         Prenotazioni
     </h1>
+
+<?php
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<div>
+    <h2> data di arrivo: $row[arrivo]</h2> <p>$row[nome] $row[cognome] importo:$row[importo] caparra:$row[caparra] </p> </div>";
+}
+?>
 </body>
 </html>
