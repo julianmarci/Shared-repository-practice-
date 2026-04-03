@@ -1,10 +1,10 @@
 h1 {
     background-color:green; color: black;
 }
-div.parity {
+div:nth-child(even) {
     background-color: blue; color: yellow;
 }
-div.impair {
+div:nth-child(odd) {
     background-color: yellow; color: blue;
 }
 div:last-of-type {
