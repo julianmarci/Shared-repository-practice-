@@ -1,21 +1,28 @@
 h1 {
-    color:red;
+    color: red;
 }
-div.parity {
-    background-color: black; color: white;
+
+.PAR {
+    background-color: black;
+    color: white;
 }
-div.impair {
-    background-color: grey; color: white;
+
+.IMPAR {
+    background-color: grey;
+    color: white;
 }
-div:last-of-type {
-   color: white; background-color: red;
-   margin-top:20px;  
-   padding:10px;
+
+.final {
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    padding: 10px;
 }
+
 div {
-padding: 8px;
-margin: 5px;
-border: 1px solid #444;
-width: fit-content;
-font-family: Arial, sans-serif;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #444;
+    width: fit-content;
+    font-family: Arial, sans-serif;
 }

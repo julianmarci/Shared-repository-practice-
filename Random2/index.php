@@ -1,7 +1,3 @@
-<?php
-// Número aleatorio de divs entre 10 y 30
-$cantidad = rand(10, 30);
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,18 +11,16 @@ $cantidad = rand(10, 30);
 <body>
 
 <?php
+$cantidad = rand(10, 30);
 for ($i = 1; $i <= $cantidad; $i++) {
     if ($i % 2 == 0) {
-        echo "<div>Div $i: PAR</div>";
+        echo "<div class='PAR'>Div $i: PAR</div>";
     } else {
-        echo "<div>Div $i: IMPAR</div>";
+        echo "<div class='IMPAR'>Div $i: IMPAR</div>";
     }
 }
 ?>
-
-<div>
-    Final de página
-</div>
+<div class="final">Final de página</div>
 
 </body>
 </html>
